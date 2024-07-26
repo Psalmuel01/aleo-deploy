@@ -113,8 +113,8 @@ Use the Leo CLI to create a new project
 
 ```bash
 # create a new `hello-world` Leo project
-leo new helloworld
-cd helloworld
+leo new hello123world
+cd hello123world
 
 # build & setup & prove & verify
 leo run main 0u32 1u32
@@ -124,7 +124,15 @@ The `leo new` command creates a new Leo project with a given name.
 
 The `leo run` command will compile the program into Aleo instructions and run it.
 
-Congratulations! You've just run your first Leo program.
+Also, run same for aleonaleonaleon and exmoregroups
+
+## Deploing
+
+Run this in the terminal to deploy
+
+```bash
+leo deploy --network testnet
+```
 
 ## 🧰 Troubleshooting
 If you are having trouble installing and using Leo, please check out our [guide](docs/troubleshooting.md).
