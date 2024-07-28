@@ -1,35 +1,3 @@
-<!--p align="center">
-     <img width="1412" src="https://cdn.aleo.org/leo/banner.png">
-</p-->
-
-<h1 align="center">The Leo Programming Language</h1>
-
-<p align="center">
-    <a href="https://circleci.com/gh/AleoHQ/leo"><img src="https://circleci.com/gh/AleoHQ/leo.svg?style=svg&circle-token=00960191919c40be0774e00ce8f7fa1fcaa20c00"></a>
-    <a href="https://codecov.io/gh/AleoHQ/leo"><img src="https://codecov.io/gh/AleoHQ/leo/branch/mainnet/graph/badge.svg?token=S6MWO60SYL"/></a>
-    <a href="https://discord.gg/aleo"><img src="https://img.shields.io/discord/700454073459015690?logo=discord"/></a>
-    <a href="https://github.com/AleoHQ/leo/blob/mainnet/CONTRIBUTORS.md"><img src="https://img.shields.io/badge/contributors-393-ee8449"/></a>
-     <a href="https://twitter.com/AleoHQ"><img src="https://img.shields.io/twitter/follow/AleoHQ?style=social"/></a>
-</p>
-<div id="top"></div>
-Leo is a functional, statically-typed programming language built for writing private applications.
-
-## <a name='TableofContents'></a>Table of Contents
-
-* [🍎 Overview](#-overview)
-* [⚙️️ Build Guide](#-build-guide)
-    * [🦀 Install Rust](#-install-rust)
-    * [🐙 Build from Source Code](#-build-from-source-code)
-    * [🦁 Update from Leo](#-update-from-leo)
-    * [📦 Download using Cargo](#-download-using-cargo)
-* [🚀 Quick Start](#-quick-start)
-* [🧰 Troubleshooting](#-troubleshooting)
-* [📖 Documentation](#-documentation)
-* [🤝 Contributing](#-contributing)
-* [❤️ Contributors](#-contributors)
-* [🛡️ License](#-license)
-
-
 ## 🍎 Overview
 
 Welcome to the Leo programming language.
@@ -105,8 +73,6 @@ leo
 ```
 
 
-
-
 ## 🚀 Quick Start
 
 Use the Leo CLI to create a new project
@@ -124,9 +90,9 @@ The `leo new` command creates a new Leo project with a given name.
 
 The `leo run` command will compile the program into Aleo instructions and run it.
 
-Also, run same for aleonaleonaleon and exmoregroups
+Also, run the same for aleonaleonaleon and exmoregroups
 
-## Deploing
+## Deploying
 
 Run this in the terminal to deploy
 
@@ -134,22 +100,12 @@ Run this in the terminal to deploy
 leo deploy --network testnet
 ```
 
-## 🧰 Troubleshooting
-If you are having trouble installing and using Leo, please check out our [guide](docs/troubleshooting.md).
-
-If the issue still persists, please [open an issue](https://github.com/AleoHQ/leo/issues/new/choose).
-
 ## 📖 Documentation
 
 * [Hello World - Next Steps](https://developer.aleo.org/leo/hello)
 * [Leo Language Documentation](https://developer.aleo.org/leo/language)
 * [Leo ABNF Grammar](https://github.com/AleoHQ/grammars/blob/master/leo.abnf)
 * [Homepage](https://developer.aleo.org/overview/)
-
-## 🤝 Contributing
- 
-Please see our guidelines in the [developer documentation](./CONTRIBUTING.md)
-
 
 ## ❤️ Contributors
 
